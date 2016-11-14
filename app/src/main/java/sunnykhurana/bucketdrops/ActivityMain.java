@@ -30,7 +30,7 @@ public class ActivityMain extends AppCompatActivity implements View.OnClickListe
 
     private void intBackgroundImage() {
 
-        // for image
+        // for image 
         ImageView imageView = (ImageView) findViewById(R.id.iv_background);
         Glide.with(this)
                 .load(R.drawable.background)
