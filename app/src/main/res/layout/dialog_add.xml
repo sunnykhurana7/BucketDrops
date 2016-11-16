@@ -29,20 +29,27 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/tv_title"
         android:hint="@string/hint_et_drop"
+        android:inputType="text"
         android:padding="16dp" />
-
-    <DatePicker
-        android:id="@+id/bpv_date"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/et_drop" />
 
     <Button
         android:id="@+id/btn_add_it"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/bpv_date"
+        android:layout_below="@id/et_drop"
         android:text="@string/str_add_it"
-        android:textAllCaps="false" />
+        android:textAllCaps="false"
+
+        />
+
+    <!--<DatePicker-->
+        <!--android:id="@+id/bpv_date"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentEnd="true"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:layout_below="@id/et_drop"-->
+        <!--android:minHeight="200dp" />-->
+
 
 </RelativeLayout>
